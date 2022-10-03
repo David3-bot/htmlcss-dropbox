@@ -1,0 +1,33 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0
+}
+
+
+
+.navbar {
+	background-color: white;
+	width: 920px;
+	padding: 6px 6px;
+	display: inline-block;
+	
+}
+
+.nav-dx {
+	justify-content: space-between;
+	border-color: black;
+	border-width: 2px;
+	display: inline-block;
+	gap: 5px;
+	margin: left;
+	
+
+}
+
+.nav-sx {
+	justify-content: space-between;
+	display: inline-block;
+	align-self: flex-end;
+	margin: right;
+}
