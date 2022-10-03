@@ -8,26 +8,38 @@
 
 .navbar {
 	background-color: white;
-	width: 920px;
-	padding: 6px 6px;
-	display: inline-block;
-	
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 6;
 }
 
 .nav-dx {
-	justify-content: space-between;
-	border-color: black;
-	border-width: 2px;
-	display: inline-block;
-	gap: 5px;
-	margin: left;
-	
-
+	display: flex;
+	align-items: center;
+	gap: 10px 0;
 }
 
 .nav-sx {
-	justify-content: space-between;
+	display: flex;
+	align-items: center;
+	gap: 10px 0;
+}
+
+.nav-sx div {
+	display: flex;
+	align-items: center;
+	gap: 10px 0;
+}
+
+.navbar a {
 	display: inline-block;
-	align-self: flex-end;
-	margin: right;
+	text-decoration: none;
+	color: black;
+	padding: 0 10px;
 }
