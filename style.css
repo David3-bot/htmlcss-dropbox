@@ -43,3 +43,17 @@
 	color: black;
 	padding: 0 10px;
 }
+
+
+.padre {
+	position: relative;
+	top: 80px;
+	background-color: #add8e6;
+}
+
+.padrino {
+	width: 1200px;
+}
+.titolo {
+	font-size: 60px;
+}
