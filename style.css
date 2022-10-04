@@ -94,7 +94,7 @@
 	flex-shrink: 0;
 }
 .jumbo {
-	width: 650px;
+	width: 800px;
 }
 
 .imbott {
@@ -104,4 +104,21 @@
 
 .padrino p {
 	padding bottom: 2rem;
+}
+
+.colonne-container {
+	width: 1200px;
+	height: auto;
+	display: flex;
+}
+
+.colonna {
+	width: 33%;
+	height: auto;
+}
+
+.columns {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
 }
