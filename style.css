@@ -55,5 +55,27 @@
 	width: 1200px;
 }
 .titolo {
-	font-size: 60px;
+	font-size: 4rem ;
+}
+
+.row {
+	display: flex;
+}
+
+.col-30 {
+	width: 30%;
+}
+.col-40 {
+	width: 40;
+}
+.col-60 {
+	width: 60%;
+}
+.col-70 {
+	width: 70%;
+}
+.img-block {
+	width: 100;
+	display: block;
+	flex-shrink: 0;
 }
