@@ -116,13 +116,17 @@
 
 .columns {
 	display: flex;
-	position:
+	gap: 2.5rem;
 }
 
 .colonna {
 	width: 33%;
 	height: auto;
 	padding: 3rem;
+	border-color: lightslategray;
+	border-style: solid;
+	
+	
 }
 
 .intestazione {
@@ -133,5 +137,13 @@
     padding-left: 9rem;
 }
 
+.colonna p {
+	padding: 1rem;
+}
 
-
+.colonna span {
+	border-color: lightslategray;
+	border-style: solid;
+	padding-top: 1rem;
+	text-align: center;
+}
