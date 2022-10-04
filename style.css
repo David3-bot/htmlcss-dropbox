@@ -1,7 +1,8 @@
 * {
 	box-sizing: border-box;
 	margin: 0;
-	padding: 0
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
 }
 
 
@@ -110,15 +111,27 @@
 	width: 1200px;
 	height: auto;
 	display: flex;
+	padding-left: 25rem;
+}
+
+.columns {
+	display: flex;
+	position:
 }
 
 .colonna {
 	width: 33%;
 	height: auto;
+	padding: 3rem;
 }
 
-.columns {
-	display: flex;
+.intestazione {
+	display:flex;
 	flex-direction: column;
-	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-top: 9rem;
+    padding-left: 9rem;
 }
+
+
+
