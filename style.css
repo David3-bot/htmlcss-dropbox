@@ -99,7 +99,7 @@
 }
 
 .padrino p {
-	padding bottom: 2rem;
+	padding-bottom: 2rem;
 }
 
 .colonne-container {
@@ -159,3 +159,19 @@
 	border-color: lightslategray;
 	}
 
+.contatto {
+	width: 800px;
+	height: 600px;
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.partner {
+	flex-basis: 60%;
+	width: 100%;
+}
+
+.part-didas {
+	flex-basis: 40%;
+}
