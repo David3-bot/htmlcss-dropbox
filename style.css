@@ -224,12 +224,44 @@ h1 {
 
 
 .big {
-	flex-basis: 33%;
+	flex-basis: 33.33%;
+	padding: 1rem 0.6rem;
 }
 
-.biglietti {
-	height: 800px;
+
+.container-card {
 	display: flex;
+	margin: 0 auto;
+	flex-wrap: wrap;
 }
 
-.big
+img {
+	width: 100%;
+	display: block;
+
+}
+
+.container920 {
+	margin: 0 auto;
+	max-width: 920px;
+}
+
+.container-card img,.container-card p,.container-card h4 {
+	padding-bottom: var(--pb-1);
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+h4 {
+	font-size: 1rem;
+}
