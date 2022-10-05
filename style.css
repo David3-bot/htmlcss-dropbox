@@ -265,3 +265,38 @@ h3 {
 h4 {
 	font-size: 1rem;
 }
+
+.container-boxes {
+	display: flex;
+	
+	
+}
+
+.badge {
+	width: 33.33%;
+	display: flex;
+	flex-wrap: wrap;
+	aspect-ratio: 1 / 1;
+}
+
+.red {
+	background-color: red;
+	border: solid 1px red;
+}
+
+.blue {
+	background-color: blue;
+	border: solid 1px blue;
+}
+
+.badge img {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.vattela {
+	width: 50%;
+	
+}
