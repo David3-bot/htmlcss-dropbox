@@ -149,8 +149,20 @@ h1 {
 .intestazione {
 	padding-bottom: var(--pb-1) * 2;
 	margin-top: 5rem;
+	
 }
-*/
+
+.intestazione h3 {
+	padding: var(--pb-1);
+	font-size: 2.5rem;
+	
+}
+
+/*da vedere dopo*/
+.intestazione label {
+	padding-right: 3rem;
+}
+
 .colonna p {
 	padding: 1rem;
 }
@@ -164,6 +176,7 @@ h1 {
 
 .impresa {
 	padding: 3rem 25rem;
+	
 }
 
 .tabellina {
@@ -173,6 +186,7 @@ h1 {
 	border-color: lightslategray;
 	padding: 1rem;
 	padding-top: 1rem;
+	margin-bottom: 6rem;
 }
 .tabellina span {
 	text-align: center;
@@ -196,3 +210,26 @@ h1 {
 .part-didas {
 	flex-basis: 40%;
 }
+
+.inter {
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+}
+
+.inter h3 {
+	padding-bottom: 3rem;
+}
+
+
+
+.big {
+	flex-basis: 33%;
+}
+
+.biglietti {
+	width: 800px;
+	display: flex;
+}
+
+.big
