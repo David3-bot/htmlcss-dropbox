@@ -300,3 +300,15 @@ h4 {
 	width: 50%;
 	
 }
+
+.azienda {
+	background-color:#add8e6 ;
+	padding: 4rem 35rem 4rem 24rem;
+	
+}
+
+.aziendina {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
