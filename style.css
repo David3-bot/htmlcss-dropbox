@@ -131,6 +131,8 @@ h1 {
 	padding-left: 25rem;
 }
 
+
+
 .columns {
 	display: flex;
 	gap: 2.5rem;
@@ -145,13 +147,10 @@ h1 {
 }
 
 .intestazione {
-	display:flex;
-	flex-direction: column;
-	justify-content: space-around;
-	padding-top: 9rem;
-    padding-left: 9rem;
+	padding-bottom: var(--pb-1) * 2;
+	margin-top: 5rem;
 }
-
+*/
 .colonna p {
 	padding: 1rem;
 }
