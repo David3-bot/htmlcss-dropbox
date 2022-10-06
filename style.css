@@ -3,7 +3,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
-	border: 1px solid lightblue;
+	
 }
 
 :root {
@@ -311,4 +311,44 @@ h4 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+}
+
+
+.container-domande {
+	padding: 2rem 0;
+	
+}
+
+.maremma {
+	display: flex;
+	justify-content: space-between;
+	margin: 3rem;
+	padding: 2rem;
+
+}
+
+.domande {
+	padding: 5rem 10.5rem;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 0 5rem;
+}
+
+.footer-bx  {
+	display: flex;
+	padding: 2rem;
+	justify-content: space-around;
+
+}
+
+footer ol {
+	list-style-type: none;
+}
+
+
+footer li, h4 {
+	padding: 0.5rem;
 }
